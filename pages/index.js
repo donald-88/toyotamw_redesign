@@ -1,8 +1,8 @@
 import Head from 'next/head'
+import Car from '../components/canvas/scene'
 
 export default function Home() {
   return (
-    <h1 className="text-red-700 text-xl"
-    >Hello</h1>
+    <Car/>
   )
 }
