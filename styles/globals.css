@@ -1,3 +1,23 @@
+@import url('/fonts/stylesheet.css');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base{
+
+  body{
+    @apply bg-black
+  }
+
+  li{
+    @apply text-custom-white text-4xl font-riviera
+  }
+
+  canvas{
+    @apply fixed top-0 left-0 z-negative
+  }
+}

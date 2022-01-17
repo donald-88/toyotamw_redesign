@@ -5,7 +5,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-white': '#c2c4c3',
+        'custom-gray': '#7e7e7e',
+      },
+      zIndex: {
+        'negative': -1
+      },
+      fontFamily: {
+        'riviera': ['RivieraNights']
+      }
+    },
   },
   plugins: [],
 }
