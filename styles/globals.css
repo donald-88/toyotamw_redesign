@@ -10,14 +10,15 @@
 @layer base{
 
   body{
-    @apply bg-black
+    @apply bg-black font-riviera text-custom-white cursor-none
   }
 
   li{
-    @apply text-custom-white text-4xl font-riviera
+    @apply text-4xl
   }
 
   canvas{
-    @apply fixed top-0 left-0 z-negative
+    @apply fixed top-0 left-0
   }
+
 }

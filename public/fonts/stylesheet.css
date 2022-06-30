@@ -1,7 +1,23 @@
 @font-face {
     font-family: 'RivieraNights';
-    src: url('RivieraNightsTrial-Ultralight.otf') format('otf'),
-        url('RivieraNightsTrial-Ultralight.otf') format('otf');
+    src: url('RivieraNights-Light-WebTrial.woff') format('woff'),
+        url('RivieraNights-Light-WebTrial.woff') format('woff');
     font-weight: light;
-    font-style: normal;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'RivieraNights';
+    src: url('RivieraNights-Bold-WebTrial.woff') format('woff'),
+        url('RivieraNights-Bold-WebTrial.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'RivieraNights';
+    src: url('RivieraNights-Regular-WebTrial.woff') format('woff'),
+        url('RivieraNights-Regular-WebTrial.woff') format('woff');
+    font-weight: regular;
+    font-style: regular;
 }
